@@ -1,0 +1,170 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+}
+.heading{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+#input-google{
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    color: black;
+    background-color: rgba(234, 227, 227, 0.596);
+    box-shadow: 0 0 1rem rgba(192, 192, 206, 1);
+    padding: 0.5rem;
+}
+section.search {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 11rem;
+}
+.search img{
+    margin-bottom: 3rem;
+    height: 8rem;
+    width: 24rem;
+}
+.search .search-in{
+    width: 45rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(192, 192, 206, 1);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+input[type="text"]{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0,0.6);
+    outline: none;
+}
+
+div.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search .btn {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 12rem;
+    height: 3rem;
+}
+div.btns input[type="submit"]{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0,0.9);
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(192, 192, 206, 0.4);
+}
+div.btns input[type="submit"]:hover{
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.images{
+    position: absolute;
+    font-size: 1.6rem;
+    color: #4285f4;
+    top: 22.7rem;
+    left: 55.5vw;
+}
+div.a1{
+    width:12rem ;
+}
+.heading1 a img{
+    width: 12rem;
+    height:6rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.heading1  span{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-size: 1.8rem;
+    color: red;
+}
+.ad-search{
+    margin-top: 2rem;
+}
+div.text1{
+    border-top: solid rgba(183, 176, 176, 0.184);
+    padding-top: 4rem;
+    display: flex;
+    margin-left: 4rem;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+span.text-a1{
+    font-size: 1.5rem;
+    color: rgba(47, 45, 45, 0.529);
+}
+#right{
+    margin-left: 55rem;
+}
+.ad-search{
+    display: flex;
+    margin-left: 4rem;
+}
+span.ch1{
+    font-size: 1.2rem;
+    margin-right: 6.4rem;
+}
+input[type="text"]{
+    width: 51rem;
+    height: 2rem;
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: 0.1rem solid rgba(148, 140, 140, 0.552);
+}
+
+span.bch1{
+    margin-left: 1rem;
+    color: rgb(108, 101, 101) ;
+}
+span.ch2{
+    font-size: 1.2rem;
+    margin-right: 1.55rem;
+}
+span.ch3{
+    font-size: 1.2rem;
+    margin-right: 4.6rem;
+}
+span.ch4{
+    font-size: 1.2rem;
+    margin-right: 4rem;
+}
+div.ch2{
+    margin-top: 1.5rem;
+}
+div.ch3{
+    margin-top: 1.5rem;
+}
+div.ch4{
+    margin-top: 1.5rem;
+}
+div.btn-advs  input[type="submit"]{
+    width: 8rem;
+    height: 2.5rem;
+    padding: 0.4rem;
+    margin-left: 59rem;
+    margin-top: 2rem;
+    background-color: rgba(2, 57, 104, 0.832);
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+}
+div.btn-advs input[type="submit"]:hover{
+    background-color:rgb(32, 127, 210) ;
+}
